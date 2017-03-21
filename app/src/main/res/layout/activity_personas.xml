@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.ricardo.pruebavolley2.PersonasActivity">
+
+
+
+    <com.getbase.floatingactionbutton.FloatingActionsMenu
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        app:fab_addButtonPlusIconColor="@color/colorPrimary"
+        app:fab_addButtonColorNormal="@color/colorAccent"
+        android:elevation="10dp">
+        <android.support.design.widget.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            app:fabSize="mini"
+            android:src="@drawable/ic_directions_car_black_24dp"
+            android:elevation="5dp"
+            android:onClick="onClick"
+            />
+        <android.support.design.widget.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            app:fabSize="mini"
+            android:src="@drawable/ic_directions_walk_black_24dp"
+            android:elevation="5dp"
+            android:onClick="onClick"
+            />
+
+    </com.getbase.floatingactionbutton.FloatingActionsMenu>
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hora"
+            android:layout_marginLeft="15dp"
+            android:textSize="25dp"
+            android:paddingTop="20dp"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mes"
+            android:textSize="25dp"
+            android:paddingTop="20dp"
+            android:layout_marginLeft="15dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dia"
+            android:textSize="25dp"
+            android:paddingTop="20dp"
+            android:layout_marginLeft="15dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/año"
+            android:textSize="25dp"
+            android:paddingTop="20dp"
+            android:layout_marginLeft="15dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ci"
+            android:textSize="25dp"
+            android:paddingTop="20dp"
+            android:layout_marginLeft="15dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/op"
+            android:textSize="25dp"
+            android:paddingTop="20dp"
+            android:layout_marginLeft="15dp"
+            />
+    </LinearLayout>
+
+
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:foreground="@color/colorPrimary">
+    </ListView>
+
+
+</LinearLayout>

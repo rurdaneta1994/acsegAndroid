@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ricardo.pruebavolley2.MainActivity">
+
+
+    <com.getbase.floatingactionbutton.FloatingActionsMenu
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="20dp"
+        app:fab_addButtonPlusIconColor="@color/colorPrimary"
+        app:fab_addButtonColorNormal="@color/colorAccent"
+        android:elevation="10dp"
+        >
+        <android.support.design.widget.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnVehiculos"
+            app:fabSize="mini"
+            android:src="@drawable/ic_directions_car_black_24dp"
+            android:onClick="onClick"
+            android:elevation="5dp"/>
+
+        <android.support.design.widget.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnPersonas"
+            app:fabSize="mini"
+            android:onClick="onClick"
+            android:src="@drawable/ic_directions_walk_black_24dp"
+            android:elevation="5dp"
+            />
+
+
+    </com.getbase.floatingactionbutton.FloatingActionsMenu>
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

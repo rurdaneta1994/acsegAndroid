@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">ACSEG</string>
+    <string name="btnLogs">Registros Personas</string>
+    <string name="btnAutos">Logs Vehiculos</string>
+
+    <string name="hora">HORA</string>
+    <string name="mes">MES</string>
+    <string name="dia">DIA</string>
+    <string name="año">AÑO</string>
+    <string name="ci">CI</string>
+    <string name="op">OP</string>
+    <string name="title_activity_vehiculos">Registros Vehiculos</string>
+
+    <string name="enCampus">EN CAMPUS</string>
+    <string name="matricula">MATRICULA</string>
+</resources>
